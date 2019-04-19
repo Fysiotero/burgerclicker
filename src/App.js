@@ -1,5 +1,7 @@
 import React, {Component, useState} from 'react';
 
+import Stats from './Stats';
+
 import './App.css';
 
 import burger from './burger.png';
@@ -40,15 +42,6 @@ class Clicker extends Component {
       </div>
     );
   }
-}
-
-function Stats(props) {
-  return (
-    <div className="stats">
-      <div className="stats_title">Burgers</div>
-      <div className="stats_count">{props.count}</div>
-    </div>
-  );
 }
 
 function Burger(props) {
