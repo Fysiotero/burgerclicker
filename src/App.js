@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import Stats from './Stats';
 import Burger from './Burger';
+import Booster from './Booster';
 
 import './App.css';
 
@@ -47,13 +48,7 @@ class Clicker extends Component {
 
 
 
-function Booster(props) {
-  return (
-    <div className="booster">
-      {props.boost} burgers / click
-    </div>
-  );
-}
+
 
 function Menu(props) {
   return (
