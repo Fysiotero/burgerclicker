@@ -3,13 +3,12 @@ import React, {Component} from 'react';
 import Stats from './Stats';
 import Burger from './Burger';
 import Booster from './Booster';
+import Menu from './Menu';
 
 import './App.css';
 
 
-import iconburger from './icon-burger.png';
-import iconcoupon from './icon-coupon.png';
-import iconboy from './icon-boy.png';
+
 
 class Clicker extends Component {
 
@@ -28,7 +27,6 @@ class Clicker extends Component {
     });
   }
 
-
   render() {
     return (
       <div className="clicker">
@@ -44,20 +42,6 @@ class Clicker extends Component {
       </div>
     );
   }
-}
-
-
-
-
-
-function Menu(props) {
-  return (
-    <div className="menu">
-      <div><img src={iconburger} alt="game" /></div>
-      <div><img src={iconcoupon} alt="coupons" /><span className="badge">{props.claimableCoupons}</span></div>
-      <div><img src={iconboy} alt="profile" /></div>
-    </div>
-  );
 }
 
 export default Clicker;
