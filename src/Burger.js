@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import burger from './burger.png';
+import burger from './Images/burger.png';
 
 function Burger(props) {
     const [pressed, setPressed] = useState(false);

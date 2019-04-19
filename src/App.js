@@ -7,9 +7,6 @@ import Menu from './Menu';
 
 import './App.css';
 
-
-
-
 class Clicker extends Component {
 
   constructor(props) {

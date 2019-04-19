@@ -1,7 +1,7 @@
 import React from 'react';
-import iconburger from './icon-burger.png';
-import iconcoupon from './icon-coupon.png';
-import iconboy from './icon-boy.png';
+import iconburger from './Images/icon-burger.png';
+import iconcoupon from './Images/icon-coupon.png';
+import iconboy from './Images/icon-boy.png';
 
 function Menu(props) {
     return (
