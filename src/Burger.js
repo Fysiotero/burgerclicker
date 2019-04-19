@@ -5,7 +5,7 @@ function Burger(props) {
     const [pressed, setPressed] = useState(false);
     const classValue = pressed ? "burger__img burger__img--pressed" : "burger__img";
     return (
-      <div className="burger">
+        <div className="burger">
         <img 
           src={burger} 
           alt="" 
@@ -14,8 +14,8 @@ function Burger(props) {
           onPointerDown={() => setPressed(true)}
           onPointerUp={() => setPressed(false)}
           />
-      </div>
+        </div>
     );
-  }
+}
 
   export default Burger;
