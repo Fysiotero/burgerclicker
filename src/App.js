@@ -1,10 +1,11 @@
-import React, {Component, useState} from 'react';
+import React, {Component} from 'react';
 
 import Stats from './Stats';
+import Burger from './Burger';
 
 import './App.css';
 
-import burger from './burger.png';
+
 import iconburger from './icon-burger.png';
 import iconcoupon from './icon-coupon.png';
 import iconboy from './icon-boy.png';
@@ -44,22 +45,7 @@ class Clicker extends Component {
   }
 }
 
-function Burger(props) {
-  const [pressed, setPressed] = useState(false);
-  const classValue = pressed ? "burger__img burger__img--pressed" : "burger__img";
-  return (
-    <div className="burger">
-      <img 
-        src={burger} 
-        alt="" 
-        className={classValue}
-        onClick={props.onClick}
-        onPointerDown={() => setPressed(true)}
-        onPointerUp={() => setPressed(false)}
-        />
-    </div>
-  );
-}
+
 
 function Booster(props) {
   return (
