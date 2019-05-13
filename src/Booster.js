@@ -3,7 +3,7 @@ import React from 'react';
 function Booster(props) {
     return (
         <div className="booster">
-        {props.boost} burgers / click
+        {props.boost} burger point / click
         </div>
     );
 }
